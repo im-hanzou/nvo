@@ -1,0 +1,13 @@
+{
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"manifest_version": 3,
+	"name": "NVO Bypass for Whatsapp Web",
+	"version": "0.1.0",
+	"description": "__MSG_description__",
+	"default_locale": "en",
+	"action": { "default_popup": "popup.html" },
+	"background": { "service_worker": "service_worker.js" },
+	"content_scripts": [{ "matches": ["https://web.whatsapp.com/*"], "js": ["injector.js"] }],
+	"web_accessible_resources": [{ "matches": ["https://web.whatsapp.com/*"], "resources": ["script.js"] }],
+	"permissions": ["storage"]
+}

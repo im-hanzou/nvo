@@ -1,0 +1,7 @@
+{
+   "description": { "message": "No View Once Bypass" },
+   "buy_sub": { "message": "Subscribe" },
+   "cancel_sub": { "message": "Cancel" },
+   "active_sub": { "message": "NVO Bypass Ready" },
+   "inactive_sub": { "message": "NVO Bypass Inactive" }
+}
